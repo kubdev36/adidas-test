@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    background: white;
+    margin-top: 20px;
+}
+.nav-bar li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+.nav-bar li a:hover{
+    color: white;
+    background: black;
+}
+.hamburger-menu {
+    display: none; /* Ẩn mặc định trên màn hình lớn */
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .hamburger-menu .bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.shipping-header {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.shipping-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.shipping-header p {
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+
+.shipping-options, .shipping-info, .faq {
+    padding: 30px 0;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.shipping-options h2, .shipping-info h2, .faq h2 {
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.shipping-option {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.shipping-option i {
+    font-size: 2.5em;
+    color: #000;
+}
+
+.shipping-option h3 {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.shipping-option p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.shipping-option .note {
+    font-style: italic;
+    color: #777;
+}
+
+.shipping-info .info-item, .faq .faq-item {
+    padding: 15px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.shipping-info .info-item:last-child, .faq .faq-item:last-child {
+    border-bottom: none;
+}
+
+.shipping-info h3, .faq h3 {
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.shipping-info p, .faq p {
+    color: #555;
+}
+
+/* footer */
+.contact{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 cột bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các cột */
+    margin: 40px;
+    justify-items: center;
+}
+.contact div{
+    line-height: 2;
+}
+.contact div h1{
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    background: black;
+    color: white;
+    line-height: 2;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .shipping-header {
+        padding: 40px 0;
+    }
+
+    .shipping-header h1 {
+        font-size: 2em;
+    }
+
+    .shipping-option {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .shipping-option i {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+    .nav-links {
+        display: none; /* Ẩn menu trên màn hình nhỏ */
+        position: absolute;
+        top: 60px; /* Điều chỉnh tùy theo chiều cao header */
+        left: 0;
+        background-color: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 10; /* Đảm bảo menu hiển thị trên các phần tử khác */
+      }
+  
+      .nav-links.active {
+        display: flex; /* Hiển thị menu khi hamburger được kích hoạt */
+      }
+  
+      .nav-links ul {
+        flex-direction: column;
+        width: 100%;
+      }
+  
+      .nav-links li {
+        margin-right: 0;
+        width: 100%;
+      }
+  
+      .nav-links li a {
+        padding: 15px;
+        border-bottom: 1px solid #eee;
+      }
+  
+      .nav-links li:last-child a {
+        border-bottom: none;
+      }
+  
+      .hamburger-menu {
+          margin-top: 20px;
+         
+        display: inline-block; /* Hiển thị hamburger trên màn hình nhỏ */
+      }
+      .contact div h1{
+        font-size: 1em;
+      }
+
+}

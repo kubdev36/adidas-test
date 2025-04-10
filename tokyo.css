@@ -1,0 +1,242 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    background: white;
+    margin-top: 1.25em;
+}
+.nav-bar li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+}
+.nav-bar li a:hover{
+  color: white;
+  background: black;
+}
+.hamburger-menu {
+  display: none; /* Ẩn mặc định trên màn hình lớn */
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+}
+
+.hamburger-menu .bar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/* section */
+.back a{
+    
+    color: black;
+    font-weight: bold;
+
+}
+.content{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
+    gap: 2px;
+    margin: 10px;
+    
+    
+}
+
+.product img{
+    width: 500px;
+    margin: 0; /* Loại bỏ margin */
+    padding: 0; /* Loại bỏ padding */
+    border-radius: 5px;
+    
+}
+.product video{
+    width: 31em;
+}
+.size {
+    display: grid;
+    grid-template-columns: repeat(5, 50px); 
+    gap: 2px; 
+    padding: 10px;
+  }
+  
+  .size div {
+    border: 1px solid #ccc;
+    display: grid;
+    place-items: center; 
+    background: linear-gradient(to right, #eaeeef 0%, #eaeeef 100%);
+  }
+  .size div:hover{
+    background: black;
+    color: white;
+  }
+  .info{
+    width: 70%;
+  }
+  .detail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+  .detail img{
+    width: 6.25em;
+    transition: transform 0.3s ease;
+  }
+  .detail img:hover{
+    transform: scale(1.2);
+  }
+  .add{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  /*  footer*/
+  .join{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: yellow;
+    color: black;
+    text-align: center;
+    height: 10vh;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 cột bằng nhau */
+  gap: 20px; /* Khoảng cách giữa các cột */
+  margin: 40px;
+  justify-items: center;
+}
+.contact div{
+  line-height: 2;
+}
+.contact div h1{
+  font-weight: bold;
+}
+.footer{
+  text-align: center;
+  background: black;
+  color: white;
+  line-height: 2;
+}
+@media (max-width:768px) {
+  
+  .product img{
+    width: 400px;
+    display: block;
+  }
+  .product video{
+    width: 400px;
+    display: block;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+  .info{
+    width: 100%;
+    margin: 10px;
+   
+  }
+  .size{
+    
+      display: grid;
+      grid-template-columns: repeat(auto-fit, calc(100% / 5)); 
+      gap: 2px;
+      padding: 10px;
+      width: 100%; 
+  }
+  .size div {
+    border: 1px solid #ccc;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to right, #eaeeef 0%, #eaeeef 100%);
+    height: 30px; 
+  }
+  .info h1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .join{
+    font-size: 30px;
+  }
+  .nav-links {
+    display: none; /* Ẩn menu trên màn hình nhỏ */
+    position: absolute;
+    top: 60px; /* Điều chỉnh tùy theo chiều cao header */
+    left: 0;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Đảm bảo menu hiển thị trên các phần tử khác */
+  }
+
+  .nav-links.active {
+    display: flex; /* Hiển thị menu khi hamburger được kích hoạt */
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .nav-links li a {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-links li:last-child a {
+    border-bottom: none;
+  }
+
+  .hamburger-menu {
+      margin-top: 20px;
+     
+   
+      display: inline-block; /* Hiển thị hamburger trên màn hình nhỏ */
+  }
+  
+  
+}
+@media(max-width:480px){
+  .product img{
+    width: 250px;
+    display: block;
+  }
+  .product video{
+    width: 250px;
+    display: block;
+  }
+}
