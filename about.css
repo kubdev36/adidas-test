@@ -488,6 +488,9 @@ a{
             font-size: 0.95em;
             margin-bottom: 10px;
         }
+       .contact{
+        margin: 10px;
+       }
 
 }
 @media(max-width:480px){

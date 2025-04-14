@@ -198,5 +198,8 @@ header p{
   .search{
       display: none;
   }
-   
+  .contact{
+   margin: 5px;
+   gap: 13px;
+}
 }

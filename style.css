@@ -409,6 +409,7 @@ section .banner img{
             font-size: 0.95em;
             margin-bottom: 10px;
         }
+        
 
 }
 @media(max-width:480px){
@@ -459,5 +460,9 @@ section .banner img{
 }
 .product-name{
     font-size: 14px;
+}
+.contact{
+    margin: 5px;
+    gap: 13px;
 }
 }
