@@ -206,7 +206,7 @@ body {
         display: inline-block; /* Hiển thị hamburger trên màn hình nhỏ */
       }
       .contact div h1{
-        font-size: 1em;
+        font-size: 14px;
       }
 
 }
@@ -216,7 +216,11 @@ body {
 }
 
 .store-item{
-    width: 62%;
+    width: 56%;
 }
 
+
+    .search{
+        display: none;
+    }
 }

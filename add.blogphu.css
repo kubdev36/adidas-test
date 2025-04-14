@@ -1,0 +1,141 @@
+@media (max-width: 1024px) {
+    .image3 .a2{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/stan_smith_size_guide_masthead_m_221_1029793_624e10839a.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .a4{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/1877643_seo_interval_running_for_beginners_masthead_m_221_692016_db73715d68.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .a6{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/stretching_myths_blog_hero_image_m_146_533136_e830a74a4f.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .a8{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/sports_bra_fit_guide_blog_masthead_m_146_840724_819d42aba3.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .a10{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/sportswear_fw22_chapter2_global_mainphase_sportswear_blogpost_headerimage_m_221_922258_4903021732.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .a12{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/how_to_clean_4d_masthead_m_146_737907_29175cde1e.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .a14{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/running_ss20_adizero_story_header_app_146_436102_c0a0d0c7d2.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+}
+@media (max-width: 768px) {
+    .image3 .a2, .image3 .a4,.image3 .a6,.image3 .a8,.image3 .a10,.image3 .a12,.image3 .a14{
+        width: 35%;
+        height: 120px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .image3 .b2{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/sports_bra_fit_guide_blog_masthead_t_146_840723_f0ad6d9f4c.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .b4{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/how_to_clean_4d_masthead_d_146_737905_835fedc3eb.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .b6{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/running_ss20_adizero_story_header_desktop_146_436104_1d9ee1fc3d.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .b8{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/treadmill_workouts_for_beginners_header_dt_221_496872_23c8677131.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .b10{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/improve_running_blog_hero_image_m_185_534009_1c4590aed6.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+}
+@media (max-width: 768px) {
+    .image3 .b2,.image3 .b4,.image3 .b6,.image3 .b8,.image3 .b10{
+        width: 35%;
+        height: 120px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .image3 .c2{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/strong_knees_masthead_m_221_889622_b8d33f0b19.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .c4{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/exercises_for_ankle_strength_masthead_m_221_985456_d787713f69.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .c6{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/bodyimage1_m_185_873065_751e13145e.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+    .image3 .c8{
+        background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/how_to_wear_mens_compression_tights_1200x1420_221_339768_2680735561.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 256px;
+    }
+}
+@media (max-width: 768px) {
+    .image3 .c2,.image3 .c4,.image3 .c6,.image3 .c8{
+        width: 35%;
+        height: 120px;
+    }
+}
+
+

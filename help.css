@@ -230,3 +230,12 @@ body {
         display: inline-block; /* Hiển thị hamburger trên màn hình nhỏ */
       }
 }
+
+@media(max-width:480px){
+    .contact div h1{
+        font-size: 14px;
+    }
+    .search{
+        display: none;
+    }
+}

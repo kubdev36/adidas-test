@@ -429,5 +429,35 @@ section .banner img{
         margin-bottom: 8px;
     }
 }
+.all{
+    display: none;
+}
+.search{
+    display: none;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2px;
+   
+}
 
+.product-item p{
+    display: none;
+}
+.product-item img{
+    width: 60%;
+    height: auto;
+    
+}
+.product-item video{
+    width: 60%;
+    height: auto;
+}
+.contact h1{
+    font-size: 14px;
+}
+.product-name{
+    font-size: 14px;
+}
 }

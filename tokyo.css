@@ -232,11 +232,17 @@
 }
 @media(max-width:480px){
   .product img{
-    width: 250px;
+    width: 200px;
     display: block;
   }
   .product video{
-    width: 250px;
+    width: 200px;
     display: block;
   }
+  .contact h1{
+    font-size: 14px;
+  }
+  .search{
+    display: none;
+}
 }

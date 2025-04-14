@@ -236,3 +236,8 @@ body {
         font-size: 1em;
       }
 }
+@media(max-width:480px){
+    .search{
+        display: none;
+    }
+}

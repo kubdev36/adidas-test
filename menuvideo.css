@@ -1,0 +1,165 @@
+body{
+    display: block;
+}
+.back a {
+    color: black;
+    text-decoration: none;
+}
+.back a::after{
+    content: '';
+    width: 60px;
+    height: 2px;
+    display: block;
+    position: relative;
+    background-color: black;
+    bottom: 3px;
+   
+}
+.contet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.contet_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
+    gap: 2px;
+    margin: 10px;
+}
+.img_text img{
+    width: 400px;
+}
+.img_text video{
+    width: 400px;
+}
+.clow{
+    width: 70%;
+}
+.clow_text p i {
+    color: yellow;
+}
+.clow_text h3{
+    font-size: 40px;
+}
+.money p{
+ color: red;
+} 
+.money span{
+    color: grey;
+}
+.color_text p{
+    font-size: 20px;
+}
+.color_text img{
+    width: 70px;
+}
+.size p{
+ font-size:20px ;
+}
+.size_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 5px;   
+}
+.size1{  
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+.true_text{
+    margin: 30px 0;
+    border: 1px solid black;
+    text-align: center;
+}
+.Bag_text{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    background-color: black;  
+}
+.Bag_text a{
+ text-decoration: none;
+ color: white;
+}
+.Bag_text i{
+    padding: 0px 100px;
+}
+@media (max-width: 768px){
+    .contet{
+        display: flex;
+        flex-direction: column;
+    }
+    .img_text img{
+        width: 370px;
+        
+    }
+    .img_text video{
+        width: 370px;
+    }
+    .size_text{
+       width: 750px;
+    }
+    .true_text{
+      width: 750px;
+    }
+    .Bag_text{
+        width: 710px;
+    }
+}
+@media(max-width: 480px){
+    .back a{
+        font-size: 20px;
+        
+    }
+    .back a::after{
+        content: '';
+        width: 75px;
+        height: 2px;
+        display: block;
+        position: relative;
+       background-color: black;
+       bottom: 3px;
+       
+    }
+    .img_text img{
+        width: 200px;
+    }
+    .img_text video{
+        width: 200px;
+    }
+    .clow_text{
+        font-size: 25px;
+    }
+     .clow_text h3{
+        font-size: 30px;
+     }
+     .color_text p{
+        font-size: 25px;
+
+     }
+     .color_text img{
+        width: 150px;
+     }
+     .size p{
+        font-size: 25px;
+     }
+     .size_text{
+        width: 410px;
+     }
+     .size1{
+        font-size: 20px;
+     }
+     .true_text{
+        width: 410px;
+        font-size: 20px;
+     }
+     .Bag_text{
+        width: 375px;
+        font-size: 20px;
+     }
+
+
+}

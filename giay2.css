@@ -1,0 +1,88 @@
+body{
+    display: block;
+}
+.back a {
+    color: black;
+    text-decoration: none;
+}
+.back a::after{
+    content: '';
+    width: 60px;
+    height: 2px;
+    display: block;
+    position: relative;
+   background-color: black;
+   bottom: 3px;
+   
+}
+.contet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.contet_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
+    gap: 2px;
+    margin: 10px;
+}
+.img_text img{
+    width: 400px;
+}
+.clow{
+    width: 70%;
+}
+.clow_text p i {
+    color: yellow;
+}
+.clow_text h3{
+    font-size: 40px;
+}
+.money p{
+ color: red;
+} 
+.money span{
+    color: grey;
+}
+.color_text p{
+    font-size: 20px;
+}
+.color_text img{
+    width: 70px;
+}
+.size p{
+ font-size:20px ;
+}
+.size_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 5px;   
+}
+.size1{  
+    border: 1px solid #ccc;
+    text-align: center;
+    background: linear-gradient(to right, #eaeeef 0%, #eaeeef 100%);
+}
+.size1:hover{
+    background: black;
+    color: white;
+}
+.true_text{
+    margin: 30px 0;
+    border: 1px solid black;
+    text-align: center;
+}
+.Bag_text{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    background-color: black;  
+}
+.Bag_text a{
+ text-decoration: none;
+ color: white;
+}
+.Bag_text i{
+    padding: 0px 100px;
+}
