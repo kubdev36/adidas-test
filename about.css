@@ -490,6 +490,7 @@ a{
         }
        .contact{
         margin: 10px;
+        gap: 13px;
        }
 
 }
@@ -509,6 +510,13 @@ a{
     .about-us-container p {
         font-size: 0.9em;
         margin-bottom: 8px;
+    }
+    .contact{
+        margin: 5px;
+        gap: 13px;
+    }
+    .contact div h1{
+        font-size: 14px;
     }
 }
 
