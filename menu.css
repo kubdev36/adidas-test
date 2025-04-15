@@ -187,10 +187,11 @@ header p{
         }
    .conet_text{
        grid-template-columns: repeat(2, 1fr);
-       margin-left: 5px;
+       margin-left: 0px;
+       margin-right: 0px;
    }
    .img_test img{
-       width: 200px;
+       width: 100%;
    }
    .contact div h1{
       font-size: 14px;

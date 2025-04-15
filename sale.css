@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 .Head{
     width: 100%; 
  }
@@ -56,6 +60,7 @@ header p{
      padding: 70px 0px;
      font-size: 20px;
      margin: 0px 150px;
+     width: 100%;
  }
  .conet{
      width: 100%;
@@ -68,6 +73,7 @@ header p{
   margin: 0px 20px;
   background-color: white;
   text-align: center;
+  place-items: center;
  }
  .img_test{
     transition:transform 0,2s ; 
@@ -198,13 +204,22 @@ header p{
  @media (max-width: 480px) {
     .sale_text{  
        font-size: 15px;
-       width: 400px;
-       margin-left: 20px;
+       width: 100%;
+       margin-left: 0px;
+       
 
          }
+         .sale_text h1{
+            margin-left: 15px ;
+         }
+    .sale_text p{
+        display: none;
+    }
+
     .conet_text{
         grid-template-columns:repeat(2, 1fr);
-        margin-left: 19px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .img_test img{
         width: 190px;

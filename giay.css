@@ -24,8 +24,9 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 30%;
-    gap: 2px;
     margin: 10px;
+    gap:4px;
+    place-items: center;
 }
 .img_text img{
     width: 400px;
@@ -118,8 +119,18 @@ body{
        bottom: 3px;
        
     }
+    .contet_text{
+        width: 96%;
+        margin: 0px;
+    }
+    .img_text {
+        width: 100%;
+    }
     .img_text img{
-        width: 200px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    
     }
     .clow_text{
         font-size: 25px;
@@ -144,7 +155,7 @@ body{
         font-size: 20px;
      }
      .true_text{
-        width: 410px;
+        width: 100%;
         font-size: 20px;
      }
      .Bag_text{
